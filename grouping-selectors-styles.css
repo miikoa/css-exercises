@@ -1,0 +1,16 @@
+   
+    
+  *{
+    font-size:28;
+    font-family: Helvetica, sans-serif,'Times New Roman', Arial, Helvetica, sans-serif;
+}
+
+.first-element{
+    background-color:rgb(000,000,000);
+    color: rgb(255,255,255);
+}
+
+.second-element{
+    color:rgb(000,000,000);
+    background-color: #e8ef0c;
+}
