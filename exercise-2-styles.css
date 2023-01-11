@@ -1,8 +1,18 @@
 .odd-number {
-    background-color:255,85,198;
+    background-color:rgba(240, 85, 199, 0.537);
     font-family:Verdana, sans-serif,DejaVu Sans; 
 }
 
 .special-text {
-    font-style:24px; 
+    font-size:24px; 
 }
+
+    #even-number{
+        font-size: 24px;font-weight: bold;
+        background-color: rgb(075,255,000);
+       }
+    
+       #large-even-number{
+        font-size: 36px;
+        color: rgb(000,000,255);
+       }
