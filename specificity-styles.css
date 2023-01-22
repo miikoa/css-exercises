@@ -1,0 +1,27 @@
+
+p{
+    color:aquamarine;
+
+}
+
+.top-half-page{
+    color:pink
+   
+}
+
+
+
+.bottom-page{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: bisque;
+    background-color:blueviolet;
+
+}
+    #special-line{
+        font-style: italic;
+        font-family: monospace;
+        color:firebrick;
+
+
+}
