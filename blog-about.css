@@ -1,33 +1,62 @@
 
 *{
     box-sizing: border;
-}
-
-main{
     font-size: 14px;
     font-family: 'Harman Simple';
 }
 
-.about-me, .contact, .search{
-    font-size: 14px;
-    line-height: 26px;
-    font-family: 'Harman Simple';
-    color: #5D6063;
-    background-color: #FFFFFF;
-}
 
 .navbar{
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
     border: 2px solid grey;
     box-shadow: 5px 5px 2px grey;
     line-height: 26px;
+    margin: 20px;
+    padding: 15px;
+    font-size: 14px;
+    font-family: 'Harman Simple';
 }
+
+
+.about-me, .contact, .search{
+    line-height: 26px;
+    color: #5D6063;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Harman Simple';
+}
+     
+
+.mission-container{
+
+    display: flex;
+    justify-content: left;
+    align-content: flex-start;
+    margin: 20px ;
+    padding:20px 20px 20px 20px;
+    line-height:26px;
+    border: box;
+    font-size: 14px;
+    font-family: 'Harman Simple';
+    word-spacing: 2px;
+    
+}
+
+
+    .mission, .history{
+        display: flex;
+        justify-content: left;
+    }
+    
+
+    
+    
 
 ul{
     display: flex;
-    justify-content: left;
-    border: 5px solid black;
+    justify-content: space-around,  
+   
     background-color: rgba(150, 122, 176, 0.231);
     color: rgb(119, 80, 159);
 }
@@ -37,6 +66,7 @@ li{
      display: flex;
      padding: 2px;;
     color: rgba(10, 1, 19, 0.861);
+    
     
 }
 
