@@ -1,0 +1,46 @@
+
+*{
+    box-sizing: border;
+}
+
+main{
+    font-size: 14px;
+    font-family: 'Harman Simple';
+}
+
+.about-me, .contact, .search{
+    font-size: 14px;
+    line-height: 26px;
+    font-family: 'Harman Simple';
+    color: #5D6063;
+    background-color: #FFFFFF;
+}
+
+.navbar{
+    display: flex;
+    justify-content:space-evenly;
+    border: 2px solid grey;
+    box-shadow: 5px 5px 2px grey;
+    line-height: 26px;
+}
+
+ul{
+    display: flex;
+    justify-content: left;
+    border: 5px solid black;
+    background-color: rgba(150, 122, 176, 0.231);
+    color: rgb(119, 80, 159);
+}
+
+
+li{
+     display: flex;
+     padding: 2px;;
+    color: rgba(10, 1, 19, 0.861);
+    
+}
+
+
+    
+
+
