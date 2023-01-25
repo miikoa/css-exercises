@@ -1,0 +1,21 @@
+.nav-bar{
+    background-color: powderblue;
+    color: mediumblue;
+    border:5px solid black;
+    padding: 10px; ;
+    height: 50;
+    width: auto;
+    display:flex ;
+    flex: 1;
+}
+
+.nav{
+    background-color: rgb(6, 83, 56);
+    color: mediumblue;
+    border:5px solid black;
+    padding: 10px; ;
+    height: 50;
+    width: auto;
+    display:flex ;
+    flex: 1;
+}
