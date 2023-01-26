@@ -1,25 +1,19 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .menu-container {
-    color: #fff;
-    background-color: #5995DA;  /* Blue */
-    padding: 20px 0;
-    
-  }
-  
-  .menu {
-    border: 1px solid #fff;  /* For debugging */
-    width: 900px;
-    display:flex;
-    justify-content: space-around;
-  }
 
-  .menu-container{
-    display:flex;
-    justify-content:center;
-  }
-  
+*{
+  box-sizing: border-box;
+
+}
+.main-nav{
+  background-color: powderblue;
+  border: 1rem solid #00008b;
+  margin: 2rem 4rem 2rem;
+   
+}
+.sub-main{
+  border:1rem solid darkblue;
+  margin: 2rem 4rem 2rem;
+  padding: 10%;
+   
+}
+
+ 
