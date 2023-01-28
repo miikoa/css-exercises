@@ -5,76 +5,58 @@
     box-sizing: border-box;
 }
 
-
-.navbar{
-    display: flex;
-    justify-content: center;
-    padding:20px 0;
-    background-color: #5995daa4;
-    color: white;
-    margin: 0;
+.about-me, .contact1,.search{
+    height:.2rem;
+    margin-bottom:.2rem;
+}
+.container{
+    padding: 2rem; 
+    margin: 0px;
+    width:auto;
+    border: .3rem solid lightslategray;
+    background-color:lightgrey;
+    
 }
 .nav{
-    
-    display:flex;
-    border:1px solid  white;
-    justify-content: space-around;
-    width:900px;
-    
+    border: .3rem solid lightslategray;
+    width:auto;
+    padding: 2rem; 
+    background-color:lightgrey;
+    width:100%;
+    margin:0px;
+    display: flex;
+    justify-content:space-between;
 }
-
-.about-me, .contact, .search{
-    line-height: 26px;
-    color:white;
-    background-color: #5995daa4;
-    font-size: 14px;
-    font-family: 'Harman Simple';
-}
-     
 
 .mission-container{
-
-    display: flex;
-    justify-content: left;
-    align-content: flex-start;
-    margin: 20px ;
-    padding:20px 20px 20px 20px;
-    line-height:26px;
-    border: box;
-    font-size: 14px;
-    font-family: 'Harman Simple';
-    word-spacing: 2px;
+    padding: 2rem; 
+    margin: 0px;
+    width:auto;
+    border: .3rem solid lightslategray;
+    background-color:lightgrey;
     
+
 }
 
-
-    .mission, .history{
-        display: flex;
-        justify-content: left;
-    }
-    
-
-    
-    
-
-ul{
+.mission{
+    border: .3rem solid lightslategray;
+    width:auto;
+    padding: 2rem; 
+    background-color:lightgrey;
+    width:100%;
+    margin:0px;
     display: flex;
-    justify-content: space-around;  
+    flex-direction: row; 
+    align-items:flex-start;  
+}
+
+a:hover{
+    display:inline-block;
+    border-radius: 2px solid lightgrey;
+    margin:10px;
+    padding:5px;
+    width: 5px;
+    text-decoration:none;
    
-    background-color: rgba(150, 122, 176, 0.231);
-    color: rgb(119, 80, 159);
+
 }
-
-
-li{
-     display: flex;
-     padding: 2px;;
-    color: rgba(10, 1, 19, 0.861);
-    
-    
-}
-
-
-    
-
-
