@@ -1,0 +1,22 @@
+img{
+    height: 120px;
+    width:120px;
+    border: 2px solid #55DDFF;
+}
+body{
+    font-family: fantasy;
+}
+
+blockquote{
+    background-color: #DDDDDD;
+    max-width: 30%;
+
+}
+.list-container{
+    display:flex;
+}
+ul{
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+}

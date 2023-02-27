@@ -1,0 +1,22 @@
+::before ::after{
+    box-sizing: border-box;
+}
+.menu{
+    display:flex;
+    flex-direction: column;
+    background-color: #FFDDDD;
+    color: white;
+    max-width: 20%;
+    height:100%;
+}
+.menu .links{
+    flex: 3; 
+    margin: 20px; 
+    list-style: none;
+    gap: 40px;
+    line-height: 25px;
+     
+     
+     
+    
+}

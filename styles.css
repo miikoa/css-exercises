@@ -1,3 +1,75 @@
-div {background-color:red;color:white;font-size:32px;font-style:bold;font-style:center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Source+Code+Pro:wght@200&display=swap');
+
+
+*{box-sizing: border-box;
+    margin: 0px;
+    padding:0px;
 }
- 
+
+a:hover {
+    color: #999; /* change the text color to a lighter shade */
+    text-decoration: none; /* remove the underline */
+    border-bottom: 1px dotted #999; /* add a dotted line below the text */
+  }
+  
+body{
+    font-family:poppins, san-serif;
+    font-size:16px;
+    line-height: 1.5;
+    color: #333;
+    background-color:#AADDCC;
+}
+img{
+    max-height: 10%;
+    max-width: 10%;
+    border: 2px solid rgba(9, 5, 223, 0.831);
+}
+
+a:hover {
+    color: #999; /* change the text color to a lighter shade */
+    text-decoration: none; /* remove the underline */
+    border-bottom: 1px dotted #999; /* add a dotted line below the text */
+  }
+  a{
+    color: #116622;
+    text-decoration: none;
+  }
+.images{
+    min-height:100%vh;
+    display: flex;
+   flex-flow:wrap;
+}
+ul{
+
+    list-style: none;
+    padding: 20px;
+}
+
+.nav{
+    display:flex;
+    justify-content: space-between;
+}
+a.home{
+    display:flex;
+    margin-inline-start: 0;
+   
+    
+    
+}
+a.about{
+    display:flex;
+    align-items: center;
+    
+   
+}
+a.contact{
+    display:flex;
+    align-items: flex-end;
+    
+}
+
+     
+     
+   
+    
+

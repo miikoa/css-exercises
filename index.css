@@ -1,47 +1,12 @@
-.nav-toggle{
-    height:40px;
-    width:40px;
-    display:block;
-    cursor:pointer;
+
+.practice::before{
+    content:"note";
+    color:#CCFE66;
+    font-family: monospace;
+    font-weight: bold;
 }
-.hamburger{
-    height:2px;
-    width:100px;
-    color:black;
-    display:block;
-    margin:8px,0;
-
-}
-
-p .item-1::before{
-    content: "blue-hair is great";
-    color:#7766EF;
-
-}
-
-
-.item-2{
-height:40px;
-width:400px;
-border:20px solid #55ACFE;
-padding:10 px;
-margin:10px;
-box-sizing:border-box;
-display: flex;
-direction: row;
-justify-content: flex-start;
-    
-}
-
-
-.item-3{
-height:400px;
-width:40px;
-border:20px solid #5C22BB;
-padding:10px;
-margin:10px;
-box-sizing:content-box;
-display:flex;
-direction:row;
-justify-content: flex-start;
+blockquote{
+    margin:20px;
+    padding:20px;
+    background-color: #DDDDDD;
 }
