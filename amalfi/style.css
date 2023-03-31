@@ -1,0 +1,33 @@
+img{
+    border: 2px solid #5555FF;
+}
+
+body{
+    font-family:"hello beauftiful", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+::before::after{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height: auto;
+    padding: 10px;
+    background-color: #DDDDFF;
+    color: #111111;
+    border: 2px solid #2222FF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large;
+    letter-spacing: 2px;;
+}
+
+ul{
+    list-style: none;
+}
